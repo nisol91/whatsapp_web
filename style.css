@@ -90,7 +90,13 @@ a:hover {
   margin-bottom: 0;
 }
 .check-blue {
-  color: rgb(73, 175, 213)!important;
+  color: #52C4F7!important;
+}
+.mess-main {
+  background: url('https://66.media.tumblr.com/53a35e7ed66f3159e01f3663af30706b/tumblr_ouztgbH0CG1vj8v9mo1_500.png');
+  background-repeat: repeat-x;
+  filter: opacity(.5);
+  z-index: 0;
 }
 /* DIV & CONTAINER ---------------------------------------------------------------- */
 .flex-cont {
@@ -202,6 +208,28 @@ a:hover {
   margin-left: 3%;
   width: 30%;
   float: left;
+}
+.mess-input {
+  height: 30px;
+  width: 200px;
+  background: white;
+  z-index: 9999;
+  border-radius: 5px;
+  position: relative;
+  top: 100px;
+  left: 60px;
+  box-shadow: -1px 1px rgb(160, 173, 181);
+}
+.mess-output {
+  height: 30px;
+  width: 500px;
+  background: #DCF8C6;
+  z-index: 9999;
+  border-radius: 5px;
+  position: relative;
+  top: 150px;
+  left: 300px;
+  box-shadow: -1px 1px rgb(160, 173, 181);
 }
 
 /* MEDIA QUERY----------------------------------------------------------------- */
